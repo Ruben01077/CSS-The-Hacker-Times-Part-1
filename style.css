@@ -1,0 +1,238 @@
+body{
+margin-top: 50px;
+
+
+}
+
+#mainDiv {
+
+width: 1100px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+border-radius: 10px;
+border: 1px groove;
+padding: 20px 20px 20px 20px;
+box-shadow: 1px 1px 8px rgb(185, 183, 183);
+
+
+
+
+}
+
+
+
+#date{
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#mainTitle {
+
+    
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    
+   
+
+}
+
+
+
+#unorderList {
+
+   
+    list-style-type: none;
+    text-align: center;
+    border-top: 2px groove;
+    border-bottom: 2px groove;
+    padding: 15px 0px 15px 0px;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+ 
+  
+    
+
+}
+
+
+li {
+
+display: inline-block;
+margin: 0px 20px 0px 0px;
+
+
+
+}
+
+li, a {
+
+    text-decoration: none;
+    
+}
+
+
+
+#titleFirstText{
+
+margin: 0px 0px 0px 0px;
+font-family: 'Roboto Slab', serif;
+font-size: 39px;
+
+
+}
+
+#titleSecondText {
+
+    margin: 0px 0px 30px 0px;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    color: red;
+    
+
+}
+
+#firstPicture {
+
+    width: 100%;
+    height: auto;
+    
+  
+   
+    
+
+
+}
+
+#p1 {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 10px;
+    
+}
+
+
+#infoBar{
+
+    margin-left: 9%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width: 500px) {
+
+
+ #mainTitle{
+
+    max-width: 50%;
+    text-align: left;
+    
+
+ }   
+    
+#infoBar {
+      flex: 50%;
+      max-width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+
+    }
+
+#title{
+
+    max-width: 50%;    
+
+}
+
+#navBar{
+    max-width: 60%;  
+
+
+
+
+}
+
+#picAndText {
+    flex: 10%;
+    max-width: 60%;
+    margin-left: 0;
+    margin-right: auto;
+    
+  }
+
+  #navBar{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    }  
+
+ }
+
+ 
+
+ 
+
+
+
+
+#firstDiv #DivSecond, h3, p  {
+
+     text-align: left;
+    
+
+    }
+
+#firstDiv {
+
+display: inline-block;
+width: 400px;
+height: auto;
+font-family: 'Source Sans Pro', sans-serif;
+margin-right: 40px;
+font-size: 15px;
+
+overflow: hidden;
+position: relative;
+
+}
+
+#pictureTwo{
+
+    height: auto;
+    width: 100%;
+    
+
+}
+
+
+
+#secondDiv{
+
+    display: inline-block;
+    width: 400px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    height: auto;
+    
+    
+}
+
+#pictureThree{
+
+    height: auto;
+    width: 100%;
+   
+}
+
+
+
